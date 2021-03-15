@@ -2,11 +2,6 @@
     float: left;
     border: 1px solid;
 }
-.row:after{
-    content: '';
-    display: table;
-    clear: both;
-}
 /* col migliori rispetto all'esercizio scorso */
 .col-1{
     width: calc(100%/12);
@@ -43,4 +38,10 @@
 }
 .col-12{
     width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .col-4, .col-6, .col-12{
+        width: 100%;
+    }
 }

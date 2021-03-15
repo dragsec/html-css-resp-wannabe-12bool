@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 768px){
   *{
     margin: 0;
     border: 0;
@@ -84,7 +84,9 @@ img {
   #lezioni, #why {
     background-color: #F2F2CD;
   }
-
+  .row{
+    width: 100%;
+  }
 
 
 }
