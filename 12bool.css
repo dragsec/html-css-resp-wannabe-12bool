@@ -1,13 +1,11 @@
 [class*="col-"]{
     float: left;
     border: 1px solid;
-    background-color: pink;
-    height: 160px;
 }
-.blackpink{
-    background-color: palevioletred;
-    height: calc(100%);
-    border: white 1px solid;
+.row:after{
+    content: '';
+    display: table;
+    clear: both;
 }
 /* col migliori rispetto all'esercizio scorso */
 .col-1{
